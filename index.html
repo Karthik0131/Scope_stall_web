@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>College Event Stall</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to Our College Event Stall</h1>
+        <form id="certificateForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" required>
+            
+            <label for="photo">Photo:</label>
+            <input type="file" id="photo" accept="image/*" required>
+            
+            <button type="submit">Generate Certificate</button>
+        </form>
+        
+        <div id="certificatePreview" class="certificate">
+            <h2>My First Day at This College</h2>
+            <img src="" alt="User's Photo" id="certificatePhoto">
+            <p id="certificateName"></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
